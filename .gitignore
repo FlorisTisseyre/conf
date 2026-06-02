@@ -2,5 +2,5 @@
 .idea/
 
 # Apps RealWorld (repos externes, non versionnés ici)
-react-redux-realworld-example-app/
-spring-boot-realworld-example-app/
+app/react-redux-realworld-example-app/
+app/spring-boot-realworld-example-app/

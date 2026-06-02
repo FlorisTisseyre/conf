@@ -1,0 +1,6 @@
+# IDE
+.idea/
+
+# Apps RealWorld (repos externes, non versionnés ici)
+react-redux-realworld-example-app/
+spring-boot-realworld-example-app/

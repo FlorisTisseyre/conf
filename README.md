@@ -23,8 +23,8 @@ Le support technique est RealWorld :
 - `docs/` — conception et facilitation. Réservé au facilitateur, à ne pas
   exposer aux participants.
 - `SETUP.md` — parcours d'installation côté participant.
-- `exercices/` — briefs remis aux participants : `phase1.md` (le backlog) et
-  `phase2.md` (la fiche d'augmentation, remise seulement à la phase 2).
+- `backlog.md` — le backlog de la phase 1, remis aux participants. La fiche
+  d'angles de la phase 2 vit dans `docs/facilitation-guide.md` (facilitateur).
 - `app/` — les deux apps RealWorld, non versionnées ici (repos externes).
 
 ## Initialisation du projet

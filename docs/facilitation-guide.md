@@ -56,7 +56,7 @@ phases successives.
 Cadre donné aux participants : on vient de vous embaucher, descendez le backlog
 le plus vite possible avec l'agent.
 
-Le backlog (exercices/phase1.md) est volontairement plus long que le créneau.
+Le backlog (backlog.md) est volontairement plus long que le créneau.
 L'objectif caché : provoquer la capitulation cognitive. À force d'enchaîner les
 petites demandes, on prend ce que l'agent propose avec une revue de plus en plus
 superficielle.
@@ -69,7 +69,7 @@ de delivery réaliste.
 Même produit, même code. On reprend ce qui a été livré en phase 1 et on
 l'attaque sous tous les angles avec l'IA, en gardant le jugement.
 
-La fiche d'angles (exercices/phase2.md) est remise aux participants. Elle est
+La fiche d'angles (section « Fiche d'angles de la phase 2 » en fin de ce guide) est remise aux participants. Elle est
 organisée autour d'une règle : à chaque sortie d'agent, l'humain tranche.
 
 Point de vigilance central : la phase 2 ne doit pas devenir une "capitulation
@@ -116,7 +116,7 @@ Le repository doit être préparé à l'avance.
 
 # Nature du backlog
 
-Le backlog de la phase 1 (exercices/phase1.md) est fait d'items qui :
+Le backlog de la phase 1 (backlog.md) est fait d'items qui :
 
 - semblent triviaux, formulés en une phrase ;
 - cachent de la profondeur (visibilité, droits, cohérence, cas limites) ;
@@ -217,9 +217,9 @@ tout le monde en même temps, deux phases successives.
 
 - Le setup est fait en amont par chaque participant via `SETUP.md`.
 - Les deux apps sont clonées dans `app/` (back + front).
-- Le brief de la phase 1 est dans `exercices/phase1.md` : un backlog volontairement
+- Le brief de la phase 1 est dans `backlog.md` : un backlog volontairement
   plus long que le créneau.
-- La fiche de la phase 2 (`exercices/phase2.md`) n'est PAS distribuée au départ.
+- La fiche de la phase 2 (section « Fiche d'angles de la phase 2 » de ce guide) n'est PAS distribuée au départ.
   Tu la remets seulement au lancement de la phase 2.
 - Toi seul as accès à `docs/`. Les participants ne voient ni la thèse, ni le but
   caché de la phase 1.
@@ -246,10 +246,10 @@ delivery réaliste. Le backlog fait le reste.
 
 - 0-5 : annonce, rappel du cadrage (ni augmenté ni aliéné, on lit une
   direction), rappel que le setup doit déjà tourner.
-- 5-8 : consigne de la phase 1, remise de `phase1.md`.
+- 5-8 : consigne de la phase 1, remise du `backlog.md`.
 - 8-38 : phase 1, tout le monde descend le backlog.
 - 38-55 : débrief phase 1 (ressenti → quiz → re-ressenti, voir plus haut).
-- 55-58 : remise de `phase2.md`, consigne de la phase 2.
+- 55-58 : remise de la fiche d'angles, consigne de la phase 2.
 - 58-88 : phase 2, reprise en main sur la même codebase.
 - 88-100 : débrief phase 2 (ressenti, collecte des idées de tous).
 - 100-105 : clôture (chacun repart avec une phrase).
@@ -262,11 +262,11 @@ Si le créneau est juste, c'est cette version qui tient. On rogne sur les deux
 phases de travail et sur les débriefs, jamais sur le quiz : c'est lui le pivot.
 
 - 0-4 : annonce + cadrage (ni augmenté ni aliéné).
-- 4-6 : consigne phase 1, remise de `phase1.md`.
+- 4-6 : consigne phase 1, remise du `backlog.md`.
 - 6-31 : phase 1 (25 min suffisent à déclencher la capitulation si le backlog
   est assez long).
 - 31-46 : débrief phase 1 (ressenti ~2, quiz ~9, re-ressenti ~4).
-- 46-48 : remise de `phase2.md`, consigne phase 2.
+- 46-48 : remise de la fiche d'angles, consigne phase 2.
 - 48-73 : phase 2.
 - 73-85 : débrief phase 2 (collecte resserrée : un angle par binôme).
 - 85-90 : clôture (une phrase chacun).
@@ -317,7 +317,7 @@ Tu gardes l'agrégat du quiz pour appuyer le débrief : confiance élevée + bea
 de "je ne sais pas" = surestimation rendue visible. Montre la distribution,
 jamais un classement.
 
-## Consigne de la phase 2 (à l'oral, + remise de phase2.md)
+## Consigne de la phase 2 (à l'oral, + remise de la fiche d'angles)
 
 > Même produit, même code. Cette fois, l'objectif n'est plus le débit. Vous
 > reprenez ce que l'équipe vient de livrer et vous l'attaquez sous tous les
@@ -370,3 +370,86 @@ Clôture (~5 min) :
 - En phase 2, surveille la capitulation deluxe (voir plus haut).
 - Si le setup coince encore au démarrage, traite-le hors chrono. La friction
   technique n'est pas l'objet.
+
+---
+
+# Fiche d'angles de la phase 2 (à remettre aux participants)
+
+C'est le support participant de la phase 2. Tu la remets au lancement de la
+phase 2, pas avant.
+
+## Le principe
+
+Même produit, même code. Mais cette fois, l'objectif n'est plus le débit.
+
+Vous reprenez ce que l'équipe vient de livrer en phase 1 et vous l'attaquez sous
+tous les angles avec l'IA. Le but : comprendre, dérisquer, décider.
+
+Une règle tient toute la phase : à chaque sortie d'agent, c'est vous qui
+tranchez. Vous ne tamponnez pas. L'agent élargit ce que vous voyez ; il ne
+décide pas à votre place.
+
+## La différence avec la phase 1
+
+En phase 1, vous demandiez à l'agent de produire et vous validiez vite. Ici,
+vous lui demandez de vous rendre plus lucides, et vous gardez le jugement.
+Mêmes outils. Intention opposée.
+
+## La fiche d'angles
+
+Piochez, combinez, lancez plusieurs pistes en parallèle. Puis synthétisez
+vous-mêmes.
+
+### Comprendre le système
+
+- Faire cartographier l'architecture (back + front) et le flux d'une feature de
+  bout en bout.
+- Faire expliquer un morceau de code livré en phase 1, puis demander à l'agent
+  de VOUS interroger dessus pour tester ce que vous avez vraiment compris.
+- Retracer où un article devient visible : feed, tag, profil, URL directe,
+  favoris.
+
+### Découvrir le métier
+
+- Faire expliciter les règles métier implicites et les invariants du produit.
+- Demander : qu'est-ce qu'un vrai Medium ferait ici que notre version ne fait
+  pas ?
+
+### État de l'art
+
+- Lancer une recherche web sur les patterns du domaine : brouillon/publication,
+  gestion de visibilité, archivage / soft-delete, slug stable.
+- Comparer ce que vous avez livré à ces patterns.
+
+### Risques et criticité
+
+- Demander la criticité et les risques des modifs de la phase 1.
+- Faire lister les fuites possibles : qu'est-ce qui apparaît là où ça ne devrait
+  pas ? Qu'est-ce qui casse si on renomme, archive, bloque ?
+- Faire chercher les régressions introduites.
+
+### Revue
+
+- Lancer un agent de revue de code sur le diff de la phase 1.
+- Lancer un agent qualité : lisibilité, duplication, cohérence.
+- Lancer un agent sécurité / droits d'accès : qui peut voir ou modifier quoi ?
+
+### Preuve par les tests
+
+- Faire générer des tests qui PROUVENT un comportement attendu, ou qui RÉVÈLENT
+  une fuite.
+- Faire tourner, lire les résultats, décider quoi corriger.
+
+### Paralléliser
+
+- Lancez plusieurs de ces analyses en même temps (plusieurs agents ou onglets).
+- Le travail à forte valeur, c'est ce que vous faites de leurs sorties :
+  arbitrer, recouper, prioriser.
+
+## Le fil rouge
+
+À la fin, vous devez pouvoir dire, sur ce que l'équipe a livré :
+
+- ce qui est risqué, et pourquoi ;
+- ce que vous corrigeriez en premier ;
+- ce que vous avez compris que vous ne compreniez pas en phase 1.

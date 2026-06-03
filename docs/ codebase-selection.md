@@ -341,7 +341,7 @@ Actions à mener :
 - vérifier que les deux repositories démarrent en local ;
 - créer un fork stable ;
 - documenter le setup ;
-- finaliser le backlog de la phase 1 (exercices/phase1.md) ;
+- finaliser le backlog de la phase 1 (backlog.md) ;
 - préparer une branche de départ ;
 - vérifier que le quiz de débrief (docs/quiz-phase1.md) colle au code de départ ;
 - préparer les questions de débriefing des deux phases.

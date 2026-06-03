@@ -28,13 +28,12 @@ RealWorld vendorisées sous `app/`, le `install.sh` — vit dans un repo distinc
 
 ## Carte de lecture
 
-### `docs/run/` — le jour J (le runbook et ses supports)
+### `docs/run/` — le jour J (un fichier par étape, ouverts dans l'ordre)
 
-| Doc | Rôle |
-| --- | --- |
-| [`facilitation-guide.md`](docs/run/facilitation-guide.md) | **Le runbook.** Cadrage, déroulé minute par minute, consignes orales, débrief. Commence ici le jour J. |
-| [`quiz-phase1.md`](docs/run/quiz-phase1.md) | Le quiz du débrief de la phase 1 (Kahoot). L'instrument qui rend l'écart visible. Facilitateur uniquement. |
-| [`fiche-angles-phase2.md`](docs/run/fiche-angles-phase2.md) | Le support remis aux participants au lancement de la phase 2. |
+Commence par [`docs/run/README.md`](docs/run/README.md) : déroulé minuté + index.
+Puis tu ouvres chaque fichier numéroté au moment où tu attaques l'étape
+(`00-preparation` → `07-debrief-phase2`). `04-quiz` et `06-fiche-angles` sont
+les deux supports (quiz Kahoot facilitateur, fiche remise aux participants).
 
 ### `docs/design/` — le pourquoi (matière conférence, pas nécessaire en live)
 

@@ -44,8 +44,6 @@ RealWorld vendorisées sous `app/`, le `install.sh` — vit dans un repo distinc
 | [`cognitive-phenomena.md`](docs/design/cognitive-phenomena.md) | Le cœur intellectuel : phénomènes cognitifs individuels (ch. 1) et collectifs (ch. 2). |
 | [`codebase-selection.md`](docs/design/codebase-selection.md) | Pourquoi RealWorld/Conduit, et la feature pivot (les brouillons). |
 
-[`docs/agent-instructions.md`](docs/agent-instructions.md) — méta : rôle de
-l'agent qui aide à concevoir l'atelier, et ordre de lecture conseillé.
 
 ## Initialisation
 

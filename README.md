@@ -18,25 +18,31 @@ Le support technique est RealWorld :
 - spring-boot-realworld-example-app
 - react-redux-realworld-example-app
 
+## L'atelier (repo participant)
+
+Ce repo (`conf`) contient uniquement le contexte de conception et de
+facilitation. Le matériel remis aux participants — `setup.md`, `backlog.md`,
+les apps RealWorld dans `app/`, le script d'installation — vit dans un repo
+distinct :
+
+- En ligne : https://github.com/FlorisTisseyre/atelier
+- En local : `../atelier` (à côté de ce repo)
+
 ## Structure
 
 - `docs/` — conception et facilitation. Réservé au facilitateur, à ne pas
   exposer aux participants.
-- `SETUP.md` — parcours d'installation côté participant.
-- `backlog.md` — le backlog de la phase 1, remis aux participants. La fiche
-  d'angles de la phase 2 vit dans `docs/facilitation-guide.md` (facilitateur).
-- `app/` — les deux apps RealWorld, non versionnées ici (repos externes).
+- La fiche d'angles de la phase 2 vit dans `docs/facilitation-guide.md`
+  (facilitateur). Le `setup.md` et le `backlog.md` côté participant sont dans
+  le repo `atelier` (voir ci-dessus).
 
 ## Initialisation du projet
 
-Les deux apps RealWorld ne sont pas versionnées dans ce repo (ce sont des repos
-externes). Après avoir cloné ce repo, clone-les dans `app/` :
-
 ```bash
 git clone git@github-perso:FlorisTisseyre/conf.git
-cd conf
-mkdir -p app && cd app
-git clone https://github.com/gothinkster/spring-boot-realworld-example-app.git
-git clone https://github.com/gothinkster/react-redux-realworld-example-app.git
-cd ..
+git clone git@github-perso:FlorisTisseyre/atelier.git
 ```
+
+Les deux apps RealWorld ne sont pas versionnées dans le repo `atelier` (ce sont
+des repos externes) ; elles se clonent dans `atelier/app/` via son
+`install.sh`.

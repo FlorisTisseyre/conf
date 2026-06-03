@@ -1,5 +1,3 @@
-# codebase-selection.md
-
 # Sélection de la codebase support
 
 ## Pourquoi une codebase, pas un benchmark
@@ -51,7 +49,7 @@ datées, Redux pré-hooks, setup fragile) y est neutralisée en amont.
 Les brouillons sont l'item 1 du backlog (`atelier/backlog.md`), placé en tête et
 abordé en premier (consigne « de haut en bas ») pour qu'ils soient l'item le plus
 probablement traité. C'est sur eux que s'appuie le quiz du débrief
-(`docs/quiz-phase1.md`).
+([`../run/quiz-phase1.md`](../run/quiz-phase1.md)).
 
 Chemin naïf : un booléen draft / published, « ça marche ».
 

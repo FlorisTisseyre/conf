@@ -1,6 +1,24 @@
 # IA = Ingénieur Augmenté / Ingénieur Aliéné
 ## Guide de facilitation de l'atelier
 
+> **Le runbook du jour J est la section [« Déroulé concret — Jour J »](#déroulé-concret--jour-j).** Tout ce qui précède est le cadrage à avoir en tête.
+> Supports à portée de main : [`quiz-phase1.md`](quiz-phase1.md) (débrief phase 1) · [`fiche-angles-phase2.md`](fiche-angles-phase2.md) (remise phase 2) · `backlog.md` (repo `atelier`, remis en phase 1).
+
+### Sommaire
+
+**Cadrage (à lire avant)**
+- [Intention](#intention) · [Cadrage à tenir, et à répéter](#cadrage-à-tenir-et-à-répéter) · [Hypothèse centrale](#hypothèse-centrale)
+- [Principe de l'expérience](#principe-de-lexpérience) · [Pourquoi cet ordre](#pourquoi-cet-ordre) · [Vocabulaire](#vocabulaire)
+- [Support technique](#support-technique) · [Nature du backlog](#nature-du-backlog) · [Ce qui doit être observé](#ce-qui-doit-être-observé)
+- [Le moment clé : le débrief de la phase 1](#le-moment-clé--le-débrief-de-la-phase-1) · [Questions de débriefing](#questions-de-débriefing) · [Messages clés](#messages-clés-à-faire-émerger)
+
+**Déroulé concret — Jour J (le runbook live)**
+- [Avant la session](#avant-la-session) · [Constitution des équipes](#constitution-des-équipes) · [Consigne de la phase 1](#consigne-de-la-phase-1-à-loral)
+- [Timing indicatif (~105 min)](#timing-indicatif-créneau-105-min) · [Variante compressée (~90 min)](#variante-compressée-90-min)
+- [Chemin naïf vs profond](#chemin-naïf-vs-chemin-profond) · [Le débrief de la phase 1, en détail](#le-débrief-de-la-phase-1-en-détail)
+- [Consigne de la phase 2](#consigne-de-la-phase-2-à-loral--remise-de-la-fiche-dangles) · [Le piège de la phase 2](#le-piège-de-la-phase-2) · [Ce que tu observes en phase 2](#ce-que-tu-observes-en-phase-2)
+- [Débrief phase 2 et clôture](#débrief-phase-2-et-clôture) · [Gestion du public mixé](#gestion-du-public-mixé) · [Pièges côté facilitateur](#pièges-côté-facilitateur)
+
 # Intention
 
 L'objectif de cet atelier n'est pas de comparer les performances des modèles d'IA.
@@ -69,8 +87,9 @@ de delivery réaliste.
 Même produit, même code. On reprend ce qui a été livré en phase 1 et on
 l'attaque sous tous les angles avec l'IA, en gardant le jugement.
 
-La fiche d'angles (section « Fiche d'angles de la phase 2 » en fin de ce guide) est remise aux participants. Elle est
-organisée autour d'une règle : à chaque sortie d'agent, l'humain tranche.
+La fiche d'angles ([`fiche-angles-phase2.md`](fiche-angles-phase2.md)) est
+remise aux participants. Elle est organisée autour d'une règle : à chaque sortie
+d'agent, l'humain tranche.
 
 Point de vigilance central : la phase 2 ne doit pas devenir une "capitulation
 deluxe". Lancer dix agents et tamponner leurs sorties, c'est encore déléguer son
@@ -97,7 +116,8 @@ et ingénieur aliéné arrivent au débrief, une fois l'expérience vécue.
 
 # Support technique
 
-Support retenu (figé dans le repo `atelier`, voir `docs/codebase-selection.md`) :
+Support retenu (figé dans le repo `atelier`, voir
+[`../design/codebase-selection.md`](../design/codebase-selection.md)) :
 
 - spring-boot-realworld-example-app (back)
 - react-redux-realworld-example-app (front)
@@ -150,18 +170,11 @@ Pendant l'atelier, noter :
 # Le moment clé : le débrief de la phase 1
 
 Le révélateur n'est plus une modif surprise. C'est le débrief de la phase 1,
-construit pour rendre les trous tangibles sans les asséner. En trois temps :
+construit pour rendre les trous tangibles sans les asséner : ressenti à chaud →
+quiz individuel → re-ressenti. C'est le pivot de l'atelier.
 
-1. Ressenti à chaud. Comment vous vous sentez ? Combien d'items bouclés ? La
-   plupart se sentent productifs. Note-le, on y reviendra.
-2. Quiz individuel (docs/quiz-phase1.md). Partie 1 : compréhension du système.
-   Partie 2 : ce que fait réellement votre code, avec un "je ne sais pas"
-   assumé. Le croisement confiance élevée + beaucoup de "je ne sais pas" rend la
-   surestimation visible et chiffrée.
-3. Re-ressenti. Maintenant que vous avez vu le quiz, comment vous sentez-vous ?
-   C'est là qu'on nomme le phénomène : capitulation cognitive. Pas une perte de
-   compétence (irréaliste en 30 min), mais la sensation d'avoir pris sans
-   vérifier, dès qu'on a enchaîné plus d'une dizaine de demandes.
+Le pas-à-pas des trois temps (timing, formulations, plan B Kahoot) est dans la
+section « Le débrief de la phase 1, en détail » du déroulé Jour J, plus bas.
 
 ---
 
@@ -220,7 +233,7 @@ tout le monde en même temps, deux phases successives.
 - Les deux apps sont clonées dans `app/` (back + front).
 - Le brief de la phase 1 est dans `backlog.md` : un backlog volontairement
   plus long que le créneau.
-- La fiche de la phase 2 (section « Fiche d'angles de la phase 2 » de ce guide) n'est PAS distribuée au départ.
+- La fiche de la phase 2 ([`fiche-angles-phase2.md`](fiche-angles-phase2.md)) n'est PAS distribuée au départ.
   Tu la remets seulement au lancement de la phase 2.
 - Toi seul as accès à `docs/`. Les participants ne voient ni la thèse, ni le but
   caché de la phase 1.
@@ -305,7 +318,7 @@ C'est le pivot de l'atelier. Trois temps (voir aussi la section "Le moment clé"
 
 1. Ressenti à chaud (~3 min). Comment vous vous sentez ? Combien d'items
    bouclés ? Note au tableau le ressenti dominant : ça avance, c'est productif.
-2. Quiz individuel (~10 min, `docs/quiz-phase1.md`). Partie 1 : compréhension du
+2. Quiz individuel (~10 min, [`quiz-phase1.md`](quiz-phase1.md)). Partie 1 : compréhension du
    système. Partie 2 : ce que fait réellement votre code, avec "je ne sais pas"
    assumé. En Kahoot. Plan B si Kahoot plante : mêmes questions à l'oral, à main
    levée (compte les mains qui ne se lèvent pas).
@@ -371,86 +384,3 @@ Clôture (~5 min) :
 - En phase 2, surveille la capitulation deluxe (voir plus haut).
 - Si le setup coince encore au démarrage, traite-le hors chrono. La friction
   technique n'est pas l'objet.
-
----
-
-# Fiche d'angles de la phase 2 (à remettre aux participants)
-
-C'est le support participant de la phase 2. Tu la remets au lancement de la
-phase 2, pas avant.
-
-## Le principe
-
-Même produit, même code. Mais cette fois, l'objectif n'est plus le débit.
-
-Vous reprenez ce que l'équipe vient de livrer en phase 1 et vous l'attaquez sous
-tous les angles avec l'IA. Le but : comprendre, dérisquer, décider.
-
-Une règle tient toute la phase : à chaque sortie d'agent, c'est vous qui
-tranchez. Vous ne tamponnez pas. L'agent élargit ce que vous voyez ; il ne
-décide pas à votre place.
-
-## La différence avec la phase 1
-
-En phase 1, vous demandiez à l'agent de produire et vous validiez vite. Ici,
-vous lui demandez de vous rendre plus lucides, et vous gardez le jugement.
-Mêmes outils. Intention opposée.
-
-## La fiche d'angles
-
-Piochez, combinez, lancez plusieurs pistes en parallèle. Puis synthétisez
-vous-mêmes.
-
-### Comprendre le système
-
-- Faire cartographier l'architecture (back + front) et le flux d'une feature de
-  bout en bout.
-- Faire expliquer un morceau de code livré en phase 1, puis demander à l'agent
-  de VOUS interroger dessus pour tester ce que vous avez vraiment compris.
-- Retracer où un article devient visible : feed, tag, profil, URL directe,
-  favoris.
-
-### Découvrir le métier
-
-- Faire expliciter les règles métier implicites et les invariants du produit.
-- Demander : qu'est-ce qu'un vrai Medium ferait ici que notre version ne fait
-  pas ?
-
-### État de l'art
-
-- Lancer une recherche web sur les patterns du domaine : brouillon/publication,
-  gestion de visibilité, archivage / soft-delete, slug stable.
-- Comparer ce que vous avez livré à ces patterns.
-
-### Risques et criticité
-
-- Demander la criticité et les risques des modifs de la phase 1.
-- Faire lister les fuites possibles : qu'est-ce qui apparaît là où ça ne devrait
-  pas ? Qu'est-ce qui casse si on renomme, archive, bloque ?
-- Faire chercher les régressions introduites.
-
-### Revue
-
-- Lancer un agent de revue de code sur le diff de la phase 1.
-- Lancer un agent qualité : lisibilité, duplication, cohérence.
-- Lancer un agent sécurité / droits d'accès : qui peut voir ou modifier quoi ?
-
-### Preuve par les tests
-
-- Faire générer des tests qui PROUVENT un comportement attendu, ou qui RÉVÈLENT
-  une fuite.
-- Faire tourner, lire les résultats, décider quoi corriger.
-
-### Paralléliser
-
-- Lancez plusieurs de ces analyses en même temps (plusieurs agents ou onglets).
-- Le travail à forte valeur, c'est ce que vous faites de leurs sorties :
-  arbitrer, recouper, prioriser.
-
-## Le fil rouge
-
-À la fin, vous devez pouvoir dire, sur ce que l'équipe a livré :
-
-- ce qui est risqué, et pourquoi ;
-- ce que vous corrigeriez en premier ;
-- ce que vous avez compris que vous ne compreniez pas en phase 1.

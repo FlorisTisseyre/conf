@@ -1,8 +1,4 @@
-# experience-design.md
-
-# IA = Ingénieur Augmenté / Ingénieur Aliéné
-
-## Conception de l'expérience
+# IA = Ingénieur Augmenté / Ingénieur Aliéné — Conception de l'expérience
 
 ---
 

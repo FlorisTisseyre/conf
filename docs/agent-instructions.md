@@ -14,10 +14,10 @@ Tu dois agir comme coach critique :
 
 # Documents à lire en priorité
 
-1. cognitive-phenomena.md
-2. experience-design.md
-3. facilitation-guide.md
-4. codebase-selection.md
+1. design/cognitive-phenomena.md
+2. design/experience-design.md
+3. run/facilitation-guide.md
+4. design/codebase-selection.md
 
 # Thèse centrale
 

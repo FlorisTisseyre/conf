@@ -85,7 +85,10 @@ La différence dépend principalement :
 
 Question principale :
 
-> Que se passe-t-il lorsque deux groupes poursuivent des objectifs cognitifs différents en utilisant exactement les mêmes outils ?
+> Que se passe-t-il dans la tête d'un même ingénieur lorsqu'il passe d'un usage de l'IA optimisé pour le débit à un usage optimisé pour la lucidité, sur le même système ?
+
+Le contraste n'est pas entre deux groupes. Il est intra-personne, avant/après,
+entre deux phases successives vécues par tout le monde.
 
 ---
 
@@ -93,39 +96,37 @@ Question principale :
 
 ## H1
 
-Un groupe optimisant la vitesse produira davantage.
+Sous pression de débit (phase 1), la revue des sorties de l'IA devient de plus en plus superficielle à mesure que les demandes s'enchaînent.
 
 ---
 
 ## H2
 
-Un groupe optimisant l'apprentissage construira un modèle mental plus riche.
+Cette capitulation est en grande partie invisible à celui qui la vit : il se sent productif.
 
 ---
 
 ## H3
 
-La différence n'apparaîtra pas immédiatement.
-
-Les deux groupes pourront sembler obtenir des résultats comparables.
+Le code produit en phase 1 contient des trous (visibilité, droits, cohérence) que ses auteurs n'ont pas vus.
 
 ---
 
 ## H4
 
-La différence deviendra visible lorsqu'une nouvelle contrainte apparaîtra.
+Un quiz qui sépare "ce que je crois" de "ce que fait réellement mon code" rend cet écart tangible et chiffrable.
 
 ---
 
 ## H5
 
-La capacité d'adaptation dépendra davantage du modèle mental construit que du volume de code produit.
+En phase 2, sur le même code, l'IA peut redevenir un instrument de lucidité — à condition que l'humain garde le jugement à chaque sortie d'agent.
 
 ---
 
 ## H6
 
-Les participants surestimeront souvent leur niveau réel de compréhension.
+Le risque de la phase 2 est de reproduire la capitulation à plus grande échelle : lancer beaucoup d'agents et tamponner leurs sorties.
 
 ---
 
@@ -145,75 +146,61 @@ Les participants doivent les vivre eux-mêmes.
 
 # Principe expérimental
 
-Deux groupes reçoivent :
+Tout le monde reçoit la même chose :
 
 - la même codebase ;
-- la même feature ;
+- le même backlog ;
 - les mêmes outils ;
 - les mêmes modèles d'IA.
 
-Seule change l'optimisation recherchée.
+Ce qui change, c'est l'intention, et elle change dans le temps : phase 1 puis
+phase 2. Le sujet de l'expérience, c'est le même individu à deux moments.
 
 ---
 
-# Groupe Production
+# Phase 1 — Capitulation
 
-Mission :
+Cadre : on vient de vous embaucher, descendez le backlog le plus vite possible
+avec l'agent.
 
-Maximiser la vitesse de livraison.
+Mécanisme : le backlog est plus long que le créneau. Sous la pression du nombre,
+on délègue à l'agent et on prend ce qu'il propose avec une revue qui s'allège à
+chaque item. C'est la capitulation cognitive.
 
-Le succès est mesuré par :
+Ce qu'on observe :
 
-- la fonctionnalité produite ;
-- la progression visible ;
-- la rapidité d'exécution.
-
----
-
-# Groupe Apprentissage
-
-Mission :
-
-Maximiser la compréhension et l'apprentissage.
-
-Le succès est mesuré par :
-
-- la qualité du modèle mental ;
-- la compréhension du système ;
-- la capacité à expliquer les choix réalisés.
+- le débit ;
+- le moment où la revue décroche ;
+- les questions à l'agent qui disparaissent ;
+- la sensation affichée : "ça avance".
 
 ---
 
-# Pourquoi cette opposition ?
+# Phase 2 — Augmentation
 
-Parce qu'elle est réaliste.
+Cadre : même code, on reprend ce qui a été livré et on l'attaque sous tous les
+angles avec l'IA, en gardant le jugement.
 
-Dans la pratique professionnelle :
+Mécanisme : analyses en parallèle, audit des risques et de la criticité, agents
+de revue, de qualité, de découverte métier, de recherche de l'état de l'art. La
+règle qui tient toute la phase : à chaque sortie d'agent, l'humain tranche.
 
-les ingénieurs arbitrent constamment entre :
+Ce qu'on observe :
 
-- livrer ;
-- comprendre.
-
-L'IA modifie profondément cet arbitrage.
+- est-ce qu'on arbitre les sorties ou est-ce qu'on les tamponne ;
+- est-ce qu'on retrouve les trous de la phase 1 ;
+- est-ce que la sensation change.
 
 ---
 
-# Inversion des groupes
+# Pourquoi cet ordre ?
 
-L'expérience doit comporter une inversion.
+Parce qu'il est réaliste, et parce qu'il finit bien.
 
-Les participants doivent vivre les deux modes.
-
-Sans inversion :
-
-- chacun défend son camp ;
-- chacun rationalise son expérience.
-
-Avec inversion :
-
-- chacun découvre les avantages ;
-- chacun découvre les limites.
+Dans la pratique, la pression de delivery vient en premier. On la fait vivre,
+puis on montre qu'avec le même outil on peut reprendre la main. Finir sur la
+reprise en main, pas sur le constat des trous, c'est ce qui permet à chacun de
+repartir avec quelque chose.
 
 ---
 
@@ -221,35 +208,34 @@ Avec inversion :
 
 Le cœur de l'expérience repose sur une idée simple :
 
-La compréhension est difficile à observer.
+La capitulation est difficile à observer pendant qu'on la vit.
 
 La production est facile à observer.
 
-Il faut donc provoquer une situation où la compréhension devient visible.
+Il faut donc provoquer une situation où la capitulation devient visible à celui
+qui l'a vécue.
 
 ---
 
 # Mécanisme de révélation
 
-Après la première phase :
+Le révélateur n'est pas une modif surprise. C'est le débrief de la phase 1, en
+trois temps :
 
-introduire une contrainte nouvelle.
+1. ressenti à chaud (on se sent productif) ;
+2. quiz individuel qui sépare "ce que je crois" de "ce que fait mon code" ;
+3. re-ressenti, une fois l'écart vu.
 
-Exemple :
-
-- changement de règle métier ;
-- nouveau besoin utilisateur ;
-- nouvelle exigence technique.
+Le croisement confiance élevée + beaucoup de "je ne sais pas" rend la
+surestimation tangible et chiffrée.
 
 ---
 
-# Raison du changement de contrainte
+# Pourquoi un quiz plutôt qu'une démo
 
-Une solution produite rapidement peut survivre à la première demande.
-
-Mais une compréhension profonde se révèle lorsque le système évolue.
-
-L'évolution agit comme un révélateur.
+Une démo en direct désigne un coupable et braque la salle. Le quiz est
+individuel : chacun constate son propre écart, sans être exposé. C'est plus
+honnête et plus efficace pour faire émerger la prise de conscience.
 
 ---
 
@@ -258,55 +244,52 @@ L'évolution agit comme un révélateur.
 Les participants doivent progressivement réaliser que :
 
 - produire n'est pas comprendre ;
-- comprendre n'est pas forcément produire ;
-- l'IA peut favoriser les deux.
+- on peut capituler sans s'en rendre compte ;
+- le même outil peut, en phase 2, redevenir un instrument de lucidité.
 
 ---
 
 # Observations recherchées
 
-## Pendant l'exercice
+## Pendant la phase 1
 
 Observer :
 
-- les stratégies de prompting ;
-- les questions posées ;
-- le temps consacré à explorer ;
-- le temps consacré à implémenter ;
-- les interactions humaines ;
+- le débit ;
+- le moment où la revue décroche ;
+- les questions à l'agent qui disparaissent ;
 - la dépendance au modèle.
 
 ---
 
-## Pendant le changement de contrainte
+## Pendant le débrief de la phase 1
 
 Observer :
 
-- la vitesse d'adaptation ;
-- la confiance ;
-- la qualité des explications ;
-- la capacité à anticiper les impacts.
+- l'écart entre confiance affichée et justesse réelle ;
+- les réactions au quiz ;
+- les prises de conscience.
 
 ---
 
-## Pendant le débriefing
+## Pendant la phase 2
 
 Observer :
 
-- les surprises ;
-- les prises de conscience ;
-- les changements d'opinion.
+- est-ce qu'on arbitre les sorties d'agents ou est-ce qu'on les tamponne ;
+- est-ce qu'on retrouve les trous de la phase 1 ;
+- le changement de sensation.
 
 ---
 
 # Critères de réussite
 
-L'expérience est réussie si les participants découvrent eux-mêmes au moins une tension réelle entre :
+L'expérience est réussie si chaque participant constate lui-même, sur son propre
+cas, l'écart entre ce qu'il croyait avoir livré et ce que son code fait
+réellement — puis ressent, en phase 2, que le même outil peut le rendre plus
+lucide.
 
-- vitesse ;
-- compréhension.
-
-Sans que cette tension leur soit expliquée à l'avance.
+Sans que cela lui soit asséné à l'avance.
 
 ---
 
@@ -314,43 +297,45 @@ Sans que cette tension leur soit expliquée à l'avance.
 
 ## Échec 1
 
-Le sujet est trop simple.
+Le backlog est trop court ou trop simple.
 
-Tout le monde réussit.
+Tout le monde a le temps de bien faire.
 
-Aucune différence n'apparaît.
+La capitulation ne se déclenche pas.
 
 ---
 
 ## Échec 2
 
-Le sujet est trop difficile.
+Le backlog est trop difficile.
 
-Personne ne progresse.
+Personne ne boucle quoi que ce soit, la pression du nombre ne joue pas.
 
 ---
 
 ## Échec 3
 
-Le groupe Apprentissage est perçu comme le "bon groupe".
+Le quiz est vécu comme un examen.
 
-L'expérience devient morale.
+Les participants se braquent au lieu de constater leur écart.
 
 ---
 
 ## Échec 4
 
-Le groupe Production est caricaturé.
+La phase 1 est moralisée.
 
-L'expérience devient idéologique.
+Le chemin naïf est présenté comme une faute alors qu'il est légitime sous
+pression de débit.
 
 ---
 
 ## Échec 5
 
-La modification surprise n'apporte aucun nouvel enjeu.
+La phase 2 devient une capitulation deluxe.
 
-Le modèle mental n'est jamais testé.
+On lance beaucoup d'agents et on tamponne leurs sorties. Le jugement n'est jamais
+repris.
 
 ---
 

@@ -23,12 +23,11 @@ L'expérience doit être vécue avant d'être expliquée.
 
 On ne devient ni augmenté ni aliéné en 30 minutes. Ce n'est pas le propos.
 L'atelier fait juste sentir une direction : vers quoi nos comportements nous
-inclinent quand on code avec l'IA. Personne n'est étiqueté, aucun groupe n'est
-"le bon".
+inclinent quand on code avec l'IA. Personne n'est étiqueté.
 
 Dis-le explicitement, et redis-le à trois moments : au lancement, juste avant
-la modif surprise, et au débrief. Si les participants l'oublient, le quizz et la
-surprise peuvent être vécus comme un examen. Ce n'est pas un examen.
+le quiz de fin de phase 1, et au débrief. Si les participants l'oublient, le quiz
+peut être vécu comme un examen. Ce n'est pas un examen.
 
 ---
 
@@ -47,76 +46,52 @@ Elle dépend principalement de la manière dont l'humain choisit d'interagir ave
 
 # Principe de l'expérience
 
-Deux groupes travaillent sur exactement la même tâche.
+Il n'y a pas deux groupes. Tout le monde travaille en même temps, en binômes ou
+petites équipes, sur la même codebase. Le contraste ne se joue pas entre des
+groupes : il se joue avant/après, dans la tête de chaque participant, entre deux
+phases successives.
 
-## Groupe A : Optimisation de la vitesse
+## Phase 1 — Capitulation
 
-Objectif :
+Cadre donné aux participants : on vient de vous embaucher, descendez le backlog
+le plus vite possible avec l'agent.
 
-Produire la fonctionnalité demandée le plus rapidement possible.
+Le backlog (exercices/phase1.md) est volontairement plus long que le créneau.
+L'objectif caché : provoquer la capitulation cognitive. À force d'enchaîner les
+petites demandes, on prend ce que l'agent propose avec une revue de plus en plus
+superficielle.
 
-Les participants sont encouragés à :
+Ne dis pas aux participants que c'est le but. Pour eux, c'est juste une pression
+de delivery réaliste.
 
-- déléguer un maximum à l'IA ;
-- copier les solutions proposées ;
-- privilégier le résultat visible ;
-- minimiser le temps consacré à la compréhension.
+## Phase 2 — Augmentation
 
-Le critère de réussite est la production.
+Même produit, même code. On reprend ce qui a été livré en phase 1 et on
+l'attaque sous tous les angles avec l'IA, en gardant le jugement.
 
----
+La fiche d'angles (exercices/phase2.md) est remise aux participants. Elle est
+organisée autour d'une règle : à chaque sortie d'agent, l'humain tranche.
 
-## Groupe B : Optimisation de l'apprentissage
-
-Objectif :
-
-Maximiser la compréhension du système et l'apprentissage.
-
-Les participants sont encouragés à :
-
-- comprendre le domaine ;
-- cartographier l'architecture ;
-- questionner les réponses de l'IA ;
-- demander plusieurs approches ;
-- générer des hypothèses ;
-- produire des tests ;
-- challenger les solutions proposées ;
-- explorer différentes stratégies de collaboration avec l'IA.
-
-Le critère de réussite est la compréhension.
+Point de vigilance central : la phase 2 ne doit pas devenir une "capitulation
+deluxe". Lancer dix agents et tamponner leurs sorties, c'est encore déléguer son
+jugement. La différence entre les deux phases n'est pas le nombre d'agents.
+C'est qui tient le volant.
 
 ---
 
-# Inversion des groupes
+# Pourquoi cet ordre
 
-Après une première phase de travail :
-
-- le groupe A devient le groupe B ;
-- le groupe B devient le groupe A.
-
-Objectif :
-
-Faire vivre les deux modes de fonctionnement à chaque participant.
-
-Cette inversion est essentielle.
-
-Elle évite que les participants rationalisent uniquement la position de leur groupe initial.
+Capitulation d'abord, augmentation ensuite. On finit sur de la reprise en main,
+pas sur le constat des trous. C'est ce qui permet une clôture où chacun repart
+avec quelque chose.
 
 ---
 
-# Point pédagogique important
+# Vocabulaire
 
-Il ne faut pas présenter initialement les groupes comme :
-
-- les bons ;
-- les mauvais.
-
-Le vocabulaire recommandé au lancement :
-
-- Groupe Production
-- Groupe Apprentissage
-
-Les notions d'ingénieur augmenté et d'ingénieur aliéné peuvent être introduites après l'expérience.
+Au lancement, on ne parle ni d'augmenté ni d'aliéné. On parle de phase 1 et de
+phase 2, ou de "vitesse" et de "reprise en main". Les termes ingénieur augmenté
+et ingénieur aliéné arrivent au débrief, une fois l'expérience vécue.
 
 ---
 
@@ -139,41 +114,23 @@ Le repository doit être préparé à l'avance.
 
 ---
 
-# Nature des exercices
+# Nature du backlog
 
-Les exercices doivent :
+Le backlog de la phase 1 (exercices/phase1.md) est fait d'items qui :
 
-- être réalisables en moins d'une heure ;
-- nécessiter des modifications sur plusieurs couches ;
-- permettre une implémentation superficielle ;
-- récompenser la compréhension profonde du système.
+- semblent triviaux, formulés en une phrase ;
+- cachent de la profondeur (visibilité, droits, cohérence, cas limites) ;
+- admettent un chemin naïf qui "marche" et un chemin profond ;
+- sont plus nombreux que faisable dans le créneau.
 
-Critères recherchés :
+C'est important : les trous doivent venir de la revue superficielle, pas
+seulement du manque de temps. Chaque item doit pouvoir être bâclé de façon
+plausible.
 
-- ambiguïté métier ;
-- impact transverse ;
-- possibilité de produire une solution qui semble correcte ;
-- présence de compromis de conception.
-
----
-
-# Exemple de feature candidate
-
-Ajouter la notion de draft d'article.
-
-Impacts potentiels :
-
-- création ;
-- édition ;
-- publication ;
-- visibilité ;
-- API ;
-- listes ;
-- profils ;
-- droits d'accès ;
-- tests.
-
-La fonctionnalité paraît simple mais possède de nombreuses implications métier.
+Exemple type : les brouillons. Un booléen draft/published et "ça marche". Mais
+le brouillon fuite dans le feed global, par tag, dans le profil public, via
+l'URL directe. La feature paraît simple : elle touche création, édition,
+publication, visibilité, API, listes, profils, droits, tests.
 
 ---
 
@@ -181,51 +138,46 @@ La fonctionnalité paraît simple mais possède de nombreuses implications méti
 
 Pendant l'atelier, noter :
 
-- vitesse de progression ;
-- volume de code produit ;
-- qualité des discussions ;
-- compréhension du domaine ;
-- dépendance à l'IA ;
-- capacité à expliquer les changements réalisés.
+- en phase 1 : le débit, le moment où la revue décroche, les questions à l'agent
+  qui disparaissent, la sensation affichée ("ça avance") ;
+- en phase 2 : est-ce qu'on arbitre les sorties d'agents ou est-ce qu'on les
+  tamponne, est-ce que la sensation change, est-ce qu'on retrouve les trous de
+  la phase 1.
 
 ---
 
-# Moment clé de l'expérience
+# Le moment clé : le débrief de la phase 1
 
-Après la première phase :
+Le révélateur n'est plus une modif surprise. C'est le débrief de la phase 1,
+construit pour rendre les trous tangibles sans les asséner. En trois temps :
 
-poser une modification surprise.
-
-Exemple :
-
-"Les règles métier ont changé."
-
-ou
-
-"Ajoutez maintenant cette contrainte supplémentaire."
-
-L'objectif est de mesurer :
-
-- qui possède réellement le modèle mental du système ;
-- qui possède seulement une implémentation produite par l'IA.
+1. Ressenti à chaud. Comment vous vous sentez ? Combien d'items bouclés ? La
+   plupart se sentent productifs. Note-le, on y reviendra.
+2. Quiz individuel (docs/quiz-phase1.md). Partie 1 : compréhension du système.
+   Partie 2 : ce que fait réellement votre code, avec un "je ne sais pas"
+   assumé. Le croisement confiance élevée + beaucoup de "je ne sais pas" rend la
+   surestimation visible et chiffrée.
+3. Re-ressenti. Maintenant que vous avez vu le quiz, comment vous sentez-vous ?
+   C'est là qu'on nomme le phénomène : capitulation cognitive. Pas une perte de
+   compétence (irréaliste en 30 min), mais la sensation d'avoir pris sans
+   vérifier, dès qu'on a enchaîné plus d'une dizaine de demandes.
 
 ---
 
 # Questions de débriefing
 
-Pour le groupe Production :
+Après la phase 1 :
 
-- Comprenez-vous complètement ce qui a été implémenté ?
-- Pourriez-vous refaire la même modification sans IA ?
-- Quels choix de conception ont été réalisés ?
-- Quels risques avez-vous identifiés ?
+- Comprenez-vous ce que vous avez livré ?
+- Sauriez-vous le refaire sans l'agent ?
+- Quels choix de conception ont été faits ? Par qui ?
+- Où sont les trous que vous n'aviez pas vus ?
 
-Pour le groupe Apprentissage :
+Après la phase 2 :
 
-- Avez-vous terminé ?
-- Qu'avez-vous appris ?
-- Que comprenez-vous maintenant du système ?
-- Que pourriez-vous faire plus rapidement lors d'une deuxième itération ?
+- Qu'est-ce qui a changé dans la sensation par rapport à la phase 1 ?
+- Quels angles ont le plus apporté ?
+- Qu'avez-vous compris que vous ne compreniez pas avant ?
 
 ---
 
@@ -256,142 +208,165 @@ Il opposera davantage :
 
 ---
 
-# Déroulé concret — Exercice 1 (Brouillons)
+# Déroulé concret — Jour J
 
-Cette section opérationnalise tout ce qui précède sur la feature "brouillons".
-Le cadre conceptuel (groupes, inversion, révélation) reste valable. Ici c'est le
-pas-à-pas du jour J.
+Cette section opérationnalise tout ce qui précède en un pas-à-pas. Un seul sujet,
+tout le monde en même temps, deux phases successives.
 
 ## Avant la session
 
 - Le setup est fait en amont par chaque participant via `SETUP.md`.
 - Les deux apps sont clonées dans `app/` (back + front).
-- Le brief participant est dans `exercices/ex1.md`, volontairement sous-spécifié.
-- Toi seul as accès à `docs/`. Les participants ne voient ni la thèse, ni la
-  modif surprise.
+- Le brief de la phase 1 est dans `exercices/phase1.md` : un backlog volontairement
+  plus long que le créneau.
+- La fiche de la phase 2 (`exercices/phase2.md`) n'est PAS distribuée au départ.
+  Tu la remets seulement au lancement de la phase 2.
+- Toi seul as accès à `docs/`. Les participants ne voient ni la thèse, ni le but
+  caché de la phase 1.
 - Prépare la clé d'API et un canal privé pour la transmettre.
 
-## Constitution des groupes
+## Constitution des équipes
 
-- Deux groupes : Production et Apprentissage.
-- Public mixé front/back : équilibre les profils dans chaque groupe pour
-  qu'aucun ne reste bloqué sur une couche.
-- Petits effectifs (2-3 par groupe). Au-delà, une personne pilote l'agent et les
+- Pas de groupes opposés. Tout le monde fait la même chose en même temps.
+- Binômes ou petites équipes (2-3). Au-delà, une personne pilote l'agent et les
   autres décrochent.
+- Public mixé front/back : équilibre les profils dans chaque binôme pour
+  qu'aucun ne reste bloqué sur une couche.
 
-## Consignes de mode (à dire à l'oral, pas dans le repo)
+## Consigne de la phase 1 (à l'oral)
 
-Ne mets jamais ces consignes dans un fichier partagé. Si un groupe lit celles de
-l'autre, le révélateur tombe. Donne-les à l'oral, ou sur une carte par groupe.
+> On vient de vous embaucher dans l'équipe qui maintient Conduit. Voici le
+> backlog. Descendez-en un maximum avec l'agent. Le seul critère, c'est que ça
+> marche et que ce soit démontrable. Le nombre d'items bouclés compte.
 
-Groupe Production :
+Ne dis pas que le but caché est la capitulation. Pour eux, c'est une pression de
+delivery réaliste. Le backlog fait le reste.
 
-> Vous avez X minutes pour livrer la feature. Le seul critère, c'est que ça
-> marche et que ce soit démontrable. Déléguez un maximum à l'agent, allez au
-> résultat.
+## Timing indicatif (créneau ~105 min)
 
-Groupe Apprentissage :
-
-> Vous avez X minutes. Le livrable compte moins que votre compréhension du
-> système. Servez-vous de l'agent pour cartographier, questionner, tester vos
-> hypothèses. À la fin, vous devez pouvoir expliquer chaque choix.
-
-Vocabulaire neutre : "Production" et "Apprentissage", jamais "les bons / les
-mauvais".
-
-## Timing indicatif (créneau ~90 min)
-
-- 0-5 : annonce du créneau, rappel du cadrage (ni augmenté ni aliéné, on lit
-  une direction), rappel que le setup doit déjà tourner.
-- 5-10 : remise des consignes de mode (séparément).
-- 10-38 : phase 1, les deux groupes travaillent sur `ex1.md`.
-- 38-42 : quizz individuel (voir `quiz-ex1.md`), juste avant la surprise.
-- 42-47 : modif surprise (voir plus bas).
-- 47-70 : phase 2, chaque groupe absorbe la contrainte. Option : inverser les
-  modes ici.
-- 70-90 : débrief.
+- 0-5 : annonce, rappel du cadrage (ni augmenté ni aliéné, on lit une
+  direction), rappel que le setup doit déjà tourner.
+- 5-8 : consigne de la phase 1, remise de `phase1.md`.
+- 8-38 : phase 1, tout le monde descend le backlog.
+- 38-55 : débrief phase 1 (ressenti → quiz → re-ressenti, voir plus haut).
+- 55-58 : remise de `phase2.md`, consigne de la phase 2.
+- 58-88 : phase 2, reprise en main sur la même codebase.
+- 88-100 : débrief phase 2 (ressenti, collecte des idées de tous).
+- 100-105 : clôture (chacun repart avec une phrase).
 
 Ajuste les bornes au temps réel dont tu disposes.
 
+## Variante compressée (~90 min)
+
+Si le créneau est juste, c'est cette version qui tient. On rogne sur les deux
+phases de travail et sur les débriefs, jamais sur le quiz : c'est lui le pivot.
+
+- 0-4 : annonce + cadrage (ni augmenté ni aliéné).
+- 4-6 : consigne phase 1, remise de `phase1.md`.
+- 6-31 : phase 1 (25 min suffisent à déclencher la capitulation si le backlog
+  est assez long).
+- 31-46 : débrief phase 1 (ressenti ~2, quiz ~9, re-ressenti ~4).
+- 46-48 : remise de `phase2.md`, consigne phase 2.
+- 48-73 : phase 2.
+- 73-85 : débrief phase 2 (collecte resserrée : un angle par binôme).
+- 85-90 : clôture (une phrase chacun).
+
+Ce qu'on ne coupe pas : le quiz et son re-ressenti. Ce qu'on coupe en premier si
+ça déborde encore : la collecte du débrief phase 2 (passe à 2-3 binômes au lieu
+de tous), pas le tour de clôture.
+
 ## Chemin naïf vs chemin profond
 
-Ce que tu vas probablement voir.
+Ce que tu vas probablement voir en phase 1. Sous pression de débit, presque tout
+le monde prend le chemin naïf. C'est voulu.
 
-Chemin naïf (souvent Production) :
+Chemin naïf :
 
 - un booléen `draft` / `published` sur l'article ;
 - la feature "marche" : on sauve, on republie ;
 - aucune règle de visibilité pensée. Le draft fuite dans le feed global, par
   tag, dans le profil public, via l'URL directe.
 
-Chemin profond (souvent Apprentissage) :
+Chemin profond (ce que la phase 2 fait émerger) :
 
 - repérage des endroits où un article devient visible (feed, tag, profil, slug
   direct, favoris, commentaires) ;
-- questions métier posées avant de coder (qui voit quoi ?) ;
+- questions métier posées (qui voit quoi ?) ;
 - filtres et requêtes ajustés côté back, état géré côté front ;
-- quelques tests sur la visibilité.
+- tests sur la visibilité.
 
 Le naïf n'est pas "faux" : il satisfait le brief tel qu'il est écrit. C'est
 exactement le piège recherché.
 
-## Le quizz, juste avant la surprise
+## Le débrief de la phase 1, en détail
 
-À la fin de la phase 1, lance le quizz (`quiz-ex1.md`) avant de lâcher la
-contrainte. Il capture l'état "je crois que c'est bon" pendant qu'il est encore
-intact. Individuel, ~3-4 min, en Kahoot.
+C'est le pivot de l'atelier. Trois temps (voir aussi la section "Le moment clé").
 
-Rappelle le cadrage en l'ouvrant : ce n'est pas un examen, ça sert à sentir où
-chacun en est. Plan B si Kahoot plante : mêmes questions à l'oral, à main levée
-(pour la partie 2, compte les mains qui ne se lèvent pas).
+1. Ressenti à chaud (~3 min). Comment vous vous sentez ? Combien d'items
+   bouclés ? Note au tableau le ressenti dominant : ça avance, c'est productif.
+2. Quiz individuel (~10 min, `docs/quiz-phase1.md`). Partie 1 : compréhension du
+   système. Partie 2 : ce que fait réellement votre code, avec "je ne sais pas"
+   assumé. En Kahoot. Plan B si Kahoot plante : mêmes questions à l'oral, à main
+   levée (compte les mains qui ne se lèvent pas).
+3. Re-ressenti (~4 min). Maintenant que vous avez vu le quiz, comment vous
+   sentez-vous ? C'est là que tu nommes le phénomène : capitulation cognitive.
+   Pas une perte de compétence, la sensation d'avoir pris sans vérifier dès
+   qu'on a enchaîné les demandes.
 
-Tu gardes l'agrégat pour le débrief.
+Tu gardes l'agrégat du quiz pour appuyer le débrief : confiance élevée + beaucoup
+de "je ne sais pas" = surestimation rendue visible. Montre la distribution,
+jamais un classement.
 
-## La modif surprise
+## Consigne de la phase 2 (à l'oral, + remise de phase2.md)
 
-À lâcher en fin de phase 1, à l'oral, aux deux groupes en même temps :
+> Même produit, même code. Cette fois, l'objectif n'est plus le débit. Vous
+> reprenez ce que l'équipe vient de livrer et vous l'attaquez sous tous les
+> angles avec l'IA. Lancez des analyses en parallèle, demandez la criticité et
+> les risques, lancez des agents de revue, de qualité, de découverte métier, de
+> recherche de l'état de l'art. Règle unique : à chaque sortie d'agent, c'est
+> vous qui tranchez.
 
-> Nouvelle contrainte. Un brouillon doit être visible par son auteur dans son
-> profil, mais invisible pour tous les autres. Il ne doit jamais apparaître dans
-> le feed global ni dans les résultats par tag. Et on doit pouvoir le publier
-> sans changer son URL.
+## Le piège de la phase 2
 
-C'est elle qui teste le modèle mental. Une implémentation naïve par booléen va
-fuiter sur au moins un de ces axes. Le groupe qui a cartographié la visibilité
-encaisse vite. L'autre découvre des impacts qu'il n'avait pas vus.
+La phase 2 ne doit pas devenir une "capitulation deluxe". Lancer dix agents et
+tamponner leurs sorties, c'est encore déléguer son jugement. Si tu vois un binôme
+empiler des rapports sans les lire, interviens : "qu'est-ce que tu en retiens,
+toi ?" La différence entre les deux phases, ce n'est pas le nombre d'agents,
+c'est qui tient le volant.
 
-## Ce que tu observes pendant la surprise
+## Ce que tu observes en phase 2
 
-- vitesse d'adaptation ;
-- est-ce qu'ils savent OÙ chercher, ou est-ce qu'ils redemandent tout à l'agent ;
-- confiance affichée vs justesse réelle ;
-- capacité à anticiper les fuites (feed, tag, slug) avant que tu les pointes.
+- est-ce qu'ils arbitrent les sorties d'agents ou est-ce qu'ils les tamponnent ;
+- est-ce qu'ils retrouvent les trous de la phase 1 (fuites feed, tag, slug) ;
+- est-ce que la sensation change ;
+- quels angles leur apportent le plus.
 
-## Débrief
+## Débrief phase 2 et clôture
 
-Reprends les questions déjà listées plus haut (section Questions de débriefing).
-Ordre conseillé :
+Débrief phase 2 :
 
-1. rappelle le cadrage (ni augmenté ni aliéné, on lit une direction) et montre
-   l'agrégat du quizz : distribution par question, jamais le classement ;
-2. chaque groupe montre où il en est ;
-3. tu testes la compréhension réelle : demande d'expliquer un choix, pas de
-   remontrer que ça marche ;
-4. tu fais émerger l'écart, sans désigner de "bon" groupe ;
-5. tu introduis seulement à ce moment les termes augmenté / aliéné.
+- ressenti : qu'est-ce qui a changé par rapport à la phase 1 ?
+- collecte ouverte : chaque binôme donne un angle qui a payé, une idée. Tu notes
+  tout au tableau, sans trier.
+- c'est ici que les termes augmenté / aliéné prennent tout leur sens.
+
+Clôture (~5 min) :
+
+- tour de table, une phrase chacun : avec quoi tu repars ?
+- laisse la question ouverte : dans mon usage de l'IA, est-ce que j'investis ma
+  cognition ou est-ce que je la délègue ?
 
 ## Gestion du public mixé
 
-- Front et back dans chaque groupe : la feature touche les deux, c'est voulu.
-- Si un groupe est mono-profil, oriente-le. Un profil back peut quand même
+- Front et back dans chaque binôme : le backlog touche les deux, c'est voulu.
+- Si un binôme est mono-profil, oriente-le. Un profil back peut quand même
   cartographier la visibilité côté front via l'agent.
 - Évite qu'une seule personne monopolise le clavier de l'agent. Fais tourner.
 
 ## Pièges côté facilitateur
 
-- Ne révèle pas la thèse avant le débrief.
-- Ne moralise pas : le chemin naïf est légitime sous contrainte de temps.
-- Ne caricature pas le groupe Production, ne sanctifie pas le groupe
-  Apprentissage.
+- Ne révèle pas la thèse ni le but caché de la phase 1 avant le débrief.
+- Ne moralise pas : le chemin naïf est légitime sous pression de débit.
+- En phase 2, surveille la capitulation deluxe (voir plus haut).
 - Si le setup coince encore au démarrage, traite-le hors chrono. La friction
   technique n'est pas l'objet.

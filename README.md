@@ -2,13 +2,19 @@
 
 Ce dossier contient le contexte de conception d’un atelier/conférence.
 
-Objectif : concevoir une expérience pratique où deux groupes utilisent l’IA différemment :
-- un groupe optimise la vitesse de production ;
-- un groupe optimise l’apprentissage et la compréhension.
+Objectif : faire vivre, sur un seul sujet et tous ensemble, deux manières
+d’utiliser l’IA, en deux phases successives.
 
-Les groupes inversent ensuite leurs rôles.
+- Phase 1 — capitulation : on descend un backlog le plus vite possible, on
+  délègue à l’agent, la revue devient de plus en plus superficielle.
+- Phase 2 — augmentation : sur la même codebase, on reprend ce qui a été livré
+  et on l’attaque sous tous les angles avec l’IA, en gardant le jugement.
 
-Le support technique envisagé est RealWorld :
+Il n’y a pas deux groupes et pas d’inversion. Tout le monde vit les deux phases
+en même temps, en binômes ou petites équipes. Le contraste se joue avant/après,
+dans la tête de chaque participant.
+
+Le support technique est RealWorld :
 - spring-boot-realworld-example-app
 - react-redux-realworld-example-app
 
@@ -17,7 +23,8 @@ Le support technique envisagé est RealWorld :
 - `docs/` — conception et facilitation. Réservé au facilitateur, à ne pas
   exposer aux participants.
 - `SETUP.md` — parcours d'installation côté participant.
-- `exercices/` — énoncés neutres remis aux participants.
+- `exercices/` — briefs remis aux participants : `phase1.md` (le backlog) et
+  `phase2.md` (la fiche d'augmentation, remise seulement à la phase 2).
 - `app/` — les deux apps RealWorld, non versionnées ici (repos externes).
 
 ## Initialisation du projet

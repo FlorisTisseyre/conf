@@ -24,6 +24,13 @@ Tu dois agir comme coach critique :
 L’IA ne rend pas automatiquement l’ingénieur augmenté ou aliéné.
 Tout dépend de la manière dont l’humain investit ou délègue sa cognition.
 
-Le cœur de l’atelier est de faire vivre la différence entre :
-- produire vite ;
-- comprendre durablement.
+Le cœur de l’atelier est de faire vivre cette différence sur un seul sujet, en
+deux phases successives vécues par tout le monde :
+- phase 1 — capitulation : descendre un backlog trop long, déléguer à l’agent,
+  la revue devient superficielle ;
+- phase 2 — augmentation : sur le même code, reprendre la main avec l’IA en
+  gardant le jugement.
+
+Il n’y a ni deux groupes ni inversion. Le contraste est intra-personne,
+avant/après. Le débrief de la phase 1 (ressenti → quiz → re-ressenti) est le
+révélateur ; il n’y a pas de modif surprise.

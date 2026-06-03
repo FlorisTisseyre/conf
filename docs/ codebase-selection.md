@@ -284,19 +284,19 @@ Elle est assez simple pour être abordée rapidement, mais assez profonde pour r
 
 ---
 
-# Twist recommandé
+# La profondeur cachée des drafts
 
-Après une première phase de travail, introduire une nouvelle contrainte.
+Les drafts ont un chemin naïf (un booléen) et un chemin profond (la visibilité).
+Ce sont ces règles implicites que la phase 2 fait remonter, et que le quiz du
+débrief de la phase 1 vient sonder.
 
-Exemple :
+Les règles que presque personne ne gère en phase 1 :
 
-> Les drafts doivent être visibles par leur auteur dans son profil, mais invisibles pour les autres utilisateurs.  
-> Ils ne doivent jamais apparaître dans le feed global, ni dans les résultats par tag.  
-> Ils doivent pouvoir être publiés sans changer d'URL.
+> Un draft doit être visible par son auteur dans son profil, mais invisible pour les autres utilisateurs.
+> Il ne doit jamais apparaître dans le feed global, ni dans les résultats par tag.
+> Il doit pouvoir être publié sans changer d'URL.
 
-Objectif :
-
-Tester si les participants ont compris :
+C'est ce qui permet de tester si les participants ont compris :
 
 - les règles de visibilité ;
 - les routes ;
@@ -325,9 +325,9 @@ Pendant l'exercice, observer :
 
 La codebase est adaptée si elle permet d'observer clairement que :
 
-- certains participants vont vite mais comprennent peu ;
-- certains participants vont moins vite mais s'adaptent mieux au changement ;
-- la modification surprise révèle l'écart de modèle mental ;
+- en phase 1, on peut produire vite en comprenant peu ;
+- le débrief de la phase 1 (quiz) révèle l'écart entre confiance et réalité ;
+- en phase 2, le même code se prête à la reprise en main avec l'IA ;
 - le débat porte sur l'usage de l'IA, pas sur la difficulté technique pure.
 
 ---
@@ -341,8 +341,7 @@ Actions à mener :
 - vérifier que les deux repositories démarrent en local ;
 - créer un fork stable ;
 - documenter le setup ;
-- choisir la feature principale ;
+- finaliser le backlog de la phase 1 (exercices/phase1.md) ;
 - préparer une branche de départ ;
-- préparer une branche solution ;
-- préparer une ou deux contraintes surprises ;
-- préparer les questions de débriefing associées.
+- vérifier que le quiz de débrief (docs/quiz-phase1.md) colle au code de départ ;
+- préparer les questions de débriefing des deux phases.

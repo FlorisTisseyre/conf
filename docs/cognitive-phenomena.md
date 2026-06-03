@@ -25,6 +25,37 @@ Ces phénomènes constituent le cœur intellectuel de la conférence.
 
 ---
 
+# Carte des phénomènes par phase
+
+L'atelier ne cherche pas à faire émerger tous ces phénomènes en même temps.
+Chaque phase en cible un petit groupe.
+
+Phase 1 — Capitulation. On fait vivre, puis on rend visibles au débrief :
+
+- Production vs Compréhension ;
+- Illusion de compréhension ;
+- Cognitive offloading (côté coût) ;
+- Dette cognitive ;
+- Illusion d'expertise ;
+- Raisonnement externalisé.
+
+Phase 2 — Augmentation. On fait vivre la reprise en main :
+
+- Cartographie mentale du système ;
+- Apprentissage génératif ;
+- Exploration cognitive augmentée ;
+- Compréhension transférable ;
+- Friction productive.
+
+Le piège transversal de la phase 2 (raisonnement externalisé à plus grande
+échelle) est ce qui empêche la liste "augmentation" de basculer dans la liste
+"capitulation". Le fil qui relie les deux : qui garde le jugement.
+
+Les phénomènes collectifs (chapitre 2) ne sont pas mis en scène ; ils servent
+de matière au débrief et à la discussion.
+
+---
+
 # Production vs Compréhension
 
 ## Description
@@ -196,11 +227,11 @@ L'IA peut soit accélérer cette construction, soit la court-circuiter.
 
 ## Manifestation observable
 
-Lorsque la règle métier change :
+En phase 2, quand il faut retrouver où un brouillon devient visible :
 
-certains participants savent immédiatement où intervenir.
+certains savent immédiatement où chercher dans le système.
 
-D'autres non.
+D'autres redemandent tout à l'agent.
 
 ---
 
@@ -371,9 +402,9 @@ Une connaissance est acquise lorsqu'elle peut être réutilisée dans un context
 
 ## Manifestation observable
 
-Après une modification surprise :
+En phase 2, face au même code :
 
-certains participants s'adaptent rapidement.
+certains réutilisent ce qu'ils ont compris pour aller vite.
 
 D'autres repartent de zéro.
 

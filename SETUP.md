@@ -95,8 +95,9 @@ claude
 
 ## 6. L'exercice
 
-L'énoncé de l'exercice est dans `exercices/ex1.md`. Lisez-le après avoir vérifié
-que le back et le front tournent.
+L'atelier se déroule en deux phases. Le brief de la phase 1 est dans
+`exercices/phase1.md` : lisez-le après avoir vérifié que le back et le front
+tournent. La fiche de la phase 2 vous sera remise le moment venu.
 
 ## Dépannage
 

@@ -2,7 +2,7 @@
 
 Ce dossier contient le contexte de conception d’un atelier/conférence.
 
-Objectif : faire vivre, sur un seul sujet et tous ensemble, deux manières
+Objectif : faire vivre, sur une même codebase et tous ensemble, deux manières
 d’utiliser l’IA, en deux phases successives.
 
 - Phase 1 — capitulation : on descend un backlog le plus vite possible, on
@@ -43,6 +43,6 @@ git clone git@github-perso:FlorisTisseyre/conf.git
 git clone git@github-perso:FlorisTisseyre/atelier.git
 ```
 
-Les deux apps RealWorld ne sont pas versionnées dans le repo `atelier` (ce sont
-des repos externes) ; elles se clonent dans `atelier/app/` via son
-`install.sh`.
+Les deux apps RealWorld sont vendorisées (committées) dans le repo `atelier`,
+sous `app/`. Son `install.sh` ne clone rien : il installe les dépendances du
+front et vérifie que le back compile.

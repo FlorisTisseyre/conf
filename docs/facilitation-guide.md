@@ -97,10 +97,10 @@ et ingénieur aliéné arrivent au débrief, une fois l'expérience vécue.
 
 # Support technique
 
-Support envisagé :
+Support retenu (figé dans le repo `atelier`, voir `docs/codebase-selection.md`) :
 
-- spring-boot-realworld-example-app
-- react-redux-realworld-example-app
+- spring-boot-realworld-example-app (back)
+- react-redux-realworld-example-app (front)
 
 Pourquoi ce choix :
 
@@ -110,7 +110,8 @@ Pourquoi ce choix :
 - taille raisonnable ;
 - architecture suffisamment riche pour nécessiter de la compréhension.
 
-Le repository doit être préparé à l'avance.
+Le repository participant est déjà préparé (apps vendorisées, `install.sh`,
+`setup.md`).
 
 ---
 

@@ -19,6 +19,19 @@ L'expérience doit être vécue avant d'être expliquée.
 
 ---
 
+# Cadrage à tenir, et à répéter
+
+On ne devient ni augmenté ni aliéné en 30 minutes. Ce n'est pas le propos.
+L'atelier fait juste sentir une direction : vers quoi nos comportements nous
+inclinent quand on code avec l'IA. Personne n'est étiqueté, aucun groupe n'est
+"le bon".
+
+Dis-le explicitement, et redis-le à trois moments : au lancement, juste avant
+la modif surprise, et au débrief. Si les participants l'oublient, le quizz et la
+surprise peuvent être vécus comme un examen. Ce n'est pas un examen.
+
+---
+
 # Hypothèse centrale
 
 L'IA peut :
@@ -288,11 +301,13 @@ mauvais".
 
 ## Timing indicatif (créneau ~90 min)
 
-- 0-5 : annonce du créneau, rappel que le setup doit déjà tourner.
+- 0-5 : annonce du créneau, rappel du cadrage (ni augmenté ni aliéné, on lit
+  une direction), rappel que le setup doit déjà tourner.
 - 5-10 : remise des consignes de mode (séparément).
-- 10-40 : phase 1, les deux groupes travaillent sur `ex1.md`.
-- 40-45 : modif surprise (voir plus bas).
-- 45-70 : phase 2, chaque groupe absorbe la contrainte. Option : inverser les
+- 10-38 : phase 1, les deux groupes travaillent sur `ex1.md`.
+- 38-42 : quizz individuel (voir `quiz-ex1.md`), juste avant la surprise.
+- 42-47 : modif surprise (voir plus bas).
+- 47-70 : phase 2, chaque groupe absorbe la contrainte. Option : inverser les
   modes ici.
 - 70-90 : débrief.
 
@@ -320,6 +335,18 @@ Chemin profond (souvent Apprentissage) :
 Le naïf n'est pas "faux" : il satisfait le brief tel qu'il est écrit. C'est
 exactement le piège recherché.
 
+## Le quizz, juste avant la surprise
+
+À la fin de la phase 1, lance le quizz (`quiz-ex1.md`) avant de lâcher la
+contrainte. Il capture l'état "je crois que c'est bon" pendant qu'il est encore
+intact. Individuel, ~3-4 min, en Kahoot.
+
+Rappelle le cadrage en l'ouvrant : ce n'est pas un examen, ça sert à sentir où
+chacun en est. Plan B si Kahoot plante : mêmes questions à l'oral, à main levée
+(pour la partie 2, compte les mains qui ne se lèvent pas).
+
+Tu gardes l'agrégat pour le débrief.
+
 ## La modif surprise
 
 À lâcher en fin de phase 1, à l'oral, aux deux groupes en même temps :
@@ -345,11 +372,13 @@ encaisse vite. L'autre découvre des impacts qu'il n'avait pas vus.
 Reprends les questions déjà listées plus haut (section Questions de débriefing).
 Ordre conseillé :
 
-1. chaque groupe montre où il en est ;
-2. tu testes la compréhension réelle : demande d'expliquer un choix, pas de
+1. rappelle le cadrage (ni augmenté ni aliéné, on lit une direction) et montre
+   l'agrégat du quizz : distribution par question, jamais le classement ;
+2. chaque groupe montre où il en est ;
+3. tu testes la compréhension réelle : demande d'expliquer un choix, pas de
    remontrer que ça marche ;
-3. tu fais émerger l'écart, sans désigner de "bon" groupe ;
-4. tu introduis seulement à ce moment les termes augmenté / aliéné.
+4. tu fais émerger l'écart, sans désigner de "bon" groupe ;
+5. tu introduis seulement à ce moment les termes augmenté / aliéné.
 
 ## Gestion du public mixé
 

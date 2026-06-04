@@ -7,12 +7,18 @@ Ordre voulu : **production → ressenti → compréhension → solution**.
 - **Partie 3** (scorée) : compréhension du système. Commune à tous.
 - **Partie 4** (sondage, non scoré) : ce que fait *leur* code. « Je ne sais pas » toujours proposé.
 
+> ⚙ **Compatibilité Kahoot** : **max 4 réponses** par question (respecté ci-dessous),
+> **pas de mise en forme** (le gras/italique du doc est pour toi, à ne pas recopier).
+> Types à choisir : production / ressenti / solution = **Sondage** (non scoré) ·
+> Q4 = **Quiz à plusieurs bonnes réponses** · le reste = **Quiz** classique ·
+> les échelles sont ramenées à **4 niveaux** (le slider 1–5 est payant).
+
 ---
 
 ## Partie 1 — Production *(déclaratif, ouvre le quiz)*
 
 **Q1. Combien de tickets avez-vous **finalisés** (ça marche + démontrable) ?** *(une réponse)*
-0 · 1–2 · 3–4 · 5–6 · 7+
+0 · 1–2 · 3–4 · 5+
 
 **Q2. Combien en avez-vous **analysés ou démarrés en plus**, sans les finir ?** *(une réponse)*
 0 · 1–2 · 3–4 · 5+
@@ -20,7 +26,10 @@ Ordre voulu : **production → ressenti → compréhension → solution**.
 ## Partie 2 — Ressenti à chaud
 
 **Q3. Là, tout de suite, vous vous sentez plutôt :** *(une réponse)*
-Lancé / productif · Confiant · Dans le flou · Frustré · Épuisé
+Productif / confiant · Dans le flou · Frustré · Épuisé
+
+> 🔁 On **repose** une jauge de ressenti à la toute fin (orientée futur) — voir
+> [`06`](06-debrief-phase2.md). Garde le résultat de Q3 pour montrer le chemin parcouru.
 
 ---
 
@@ -54,7 +63,8 @@ Oui · Non · Je ne sais pas
 **Q11. … visible par un autre utilisateur qui a son URL ?**
 Oui · Non · Je ne sais pas
 
-**Q12. Confiance que votre visibilité est correcte ?** *(échelle 1–5)*
+**Q12. Confiance que votre visibilité est correcte ?** *(sondage, 4 niveaux)*
+Pas confiant du tout · Plutôt pas · Plutôt oui · Très confiant
 
 ---
 

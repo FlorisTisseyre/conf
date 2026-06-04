@@ -1,7 +1,7 @@
-# 04 · Quiz — débrief phase 1
+# 03 · Quiz — débrief phase 1
 
 Support facilitateur. **Ne pas montrer avant le débrief.** Lancé entre le ressenti
-et le re-ressenti (voir [`03`](03-debrief-phase1.md)). Kahoot, individuel, ~9 Q, ~5 min.
+et le re-ressenti (voir [`02`](02-debrief-phase1.md)). Kahoot, individuel, ~9 Q, ~5 min.
 
 - **Partie 1** (scorée) : compréhension du système. Commune à tous.
 - **Partie 2** (sondage, non scoré) : ce que fait *leur* code. « Je ne sais pas » toujours proposé.

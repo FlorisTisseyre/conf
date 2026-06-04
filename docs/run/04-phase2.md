@@ -1,8 +1,8 @@
-# 05 · Phase 2 — reprise en main
+# 04 · Phase 2 — reprise en main
 
 ⏱ Consigne **55–58** · Travail **58–88**
 
-## Consigne (à l'oral, + remise de [`06-fiche-angles.md`](06-fiche-angles.md))
+## Consigne (à l'oral, + remise de [`05-fiche-angles.md`](05-fiche-angles.md))
 
 > Même produit, même code. L'objectif n'est plus le débit. Vous reprenez ce que
 > l'équipe vient de livrer et vous l'attaquez sous tous les angles avec l'IA :

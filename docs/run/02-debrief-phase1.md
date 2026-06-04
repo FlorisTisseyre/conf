@@ -1,4 +1,4 @@
-# 03 · Débrief phase 1 — LE PIVOT
+# 02 · Débrief phase 1 — LE PIVOT
 
 ⏱ **38–55 min** · 3 temps · **ne coupe jamais le quiz ni le re-ressenti**
 
@@ -10,7 +10,7 @@ Note au tableau le ressenti dominant : *ça avance, c'est productif*.
 
 ## 2 · Quiz individuel — ~10 min
 
-Lance [`04-quiz.md`](04-quiz.md) (Kahoot, individuel).
+Lance [`03-quiz.md`](03-quiz.md) (Kahoot, individuel).
 
 - **Plan B si Kahoot plante :** mêmes questions à l'oral, à main levée. Compte les mains qui *ne* se lèvent pas.
 

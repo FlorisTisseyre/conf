@@ -1,4 +1,4 @@
-# 07 · Débrief phase 2 + clôture
+# 06 · Débrief phase 2 + clôture
 
 ⏱ Débrief **88–100** · Clôture **100–105**
 

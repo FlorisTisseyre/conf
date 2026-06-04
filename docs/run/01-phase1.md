@@ -1,4 +1,4 @@
-# 02 · Phase 1 — débit
+# 01 · Phase 1 — débit
 
 ⏱ Consigne **5–8** · Travail **8–38**
 

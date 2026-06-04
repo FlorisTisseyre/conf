@@ -1,4 +1,4 @@
-# 06 · Fiche d'angles — Phase 2 *(remise aux participants)*
+# 05 · Fiche d'angles — Phase 2 *(remise aux participants)*
 
 > Remise **au lancement de la phase 2, pas avant.**
 

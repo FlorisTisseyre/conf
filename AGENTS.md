@@ -16,7 +16,7 @@ Tu dois agir comme coach critique :
 
 1. design/cognitive-phenomena.md
 2. design/experience-design.md
-3. run/README.md (puis les fichiers numérotés 00→07)
+3. run/README.md (puis les fichiers numérotés 00→06)
 4. design/codebase-selection.md
 
 # Thèse centrale

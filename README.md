@@ -32,8 +32,8 @@ RealWorld vendorisées sous `app/`, le `install.sh` — vit dans un repo distinc
 
 Commence par [`docs/run/README.md`](docs/run/README.md) : déroulé minuté + index.
 Puis tu ouvres chaque fichier numéroté au moment où tu attaques l'étape
-(`00-preparation` → `07-debrief-phase2`). `04-quiz` et `06-fiche-angles` sont
-les deux supports (quiz Kahoot facilitateur, fiche remise aux participants).
+(`00-accueil` → `06-debrief-phase2`). `03-quiz` et `05-fiche-angles`
+sont les deux supports (quiz Kahoot facilitateur, fiche remise aux participants).
 
 ### `docs/design/` — le pourquoi (matière conférence, pas nécessaire en live)
 
